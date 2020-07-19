@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+table a{
+    color: #5CA4A9;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Dashboard */
+
+.card-body>p{    
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+/* Create Article */
+
+.blogheading{
+    text-align: center;
+    margin: 10px 0px 40px 0px;   
+}
+
+.blogheading>h3{
+    font-weight: bold;
+}
+
+.article_box{
+    border: 3px solid black;
+    width: 80%;
+    padding: 2em;
+    margin: 45px;
+    background-color: white;
+}
+
+/* Delete Page */
+
+.delete{
+    display: flex;   
+}
+
+/* ReadBlog Page */
+
+.blog_page{
+    /* width: 100%;
+    height: 100%;
+    background-color: white; */
+}
+
+.blog_box{
+    border: 3px solid green;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 1.2em;
+    background-color: white;
+}
+
+
+.heading{
+    padding: 1em;
+}
+
+.title>h1{
+    text-align: center;
+}
+
+.info{
+    margin-top: 2em;
+}
+
+.authorname>p{
+    margin-left: 3rem;
+    font-weight: bold;
+}
+
+.postedtime>p{
+    margin-left: 3rem;
+    font-weight: bold;
+}
+
+.content_block{
+    margin-top: 2em;
+}
+
+.content{
+    padding: 1em;
+    text-justify: newspaper;
+}
+
+.content>h3{
+    letter-spacing: 0.05em;
+}
+
+
+/* Author List */
+
+.authorbox{
+    width: 80%;
+    border: 5px solid green;
+    padding: 50px;
+    margin: 45px;
+}
+
+#authorheading>h1{  
+    font-weight: bold;
+    text-align: center;   
+}
+
+.authorbody{
+    margin-top: 50px;
+    padding: 1em;
+}
+
+.authorbody a{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+
+
+

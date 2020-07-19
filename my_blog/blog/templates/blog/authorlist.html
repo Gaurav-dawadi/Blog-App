@@ -1,0 +1,28 @@
+{% extends 'blog/main.html' %}
+
+{% load static %}
+
+
+{% block main %}
+
+<div class="container mt-5">
+    <div class='authorbox'>
+        <div class="container">
+            <div id="authorheading">
+                <h1 class="display-4">All Authors</h1>
+            </div>
+            <hr>
+            <div class="authorbody">
+                {% for blog in article%}
+                <ul>
+                    <li>
+                        <a>{{blog.author}}</a>
+                    </li>
+                </ul>                
+                {% endfor %}
+            </div>          
+        </div>
+    </div>    
+</div>
+
+{% endblock %}
